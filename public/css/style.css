@@ -1,0 +1,837 @@
+.aceOff {
+  background-color: #227ECD;
+  position: relative;
+  height: 775px;
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+.modal.show .modal-dialog {
+    margin: 200px auto;
+}
+.aceOff img {
+  display: block;
+  position: relative;
+  margin: auto;
+  top: 300px;
+  height: 130px;
+  width: 702px;
+}
+.followUs p {
+  position: relative;
+  text-align: center;
+  font-size: 23px;
+  top: -10px;
+}
+.aceOff .prizeOff {
+  width: 100%;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  top: 340px;
+}
+@keyframes comingsoon {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: #ff99ff;}
+}
+
+.betaCoins {
+  position: relative;
+  height: 775px;
+  width: 100%;
+}
+.betaCoins p {
+  position: relative;
+  top: 20px;
+  padding: 5px;
+  font-size: 45px;
+  text-align: center;
+  color: #227ECD;
+}
+.betaCoins img {
+  position: relative;
+  top: 15px;
+  height: 300px;
+  width: 900px;
+  margin: auto;
+  display: block;
+}
+
+.comingSoon {
+  background-image: url("../assets/coming_soon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  height: 775px;
+  width: 100%;
+}
+
+.comingSoon .header {
+  position: relative;
+  top: 380px;
+  font-size: 6em;
+  width: 100%;
+  text-align: center;
+  line-height: 80%;
+  font-family: 'Bungee Shade', cursive;
+  animation-name: comingsoon;
+  animation-direction: alternate;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+.comingSoon .smallFont {
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.controllerSection {
+ /* background-image: url(../assets/whatweoffer.png);
+	background-repeat: no-repeat;
+	background-size: cover; */
+  position: relative;
+  height: 770px;
+  width: 100%;
+}
+.controllerSection p {
+  font-size: 55px;
+  color: #227ECD;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.controllerSection img {
+  display: block;
+  margin: auto;
+}
+
+
+.socialMedia {
+  background-color: #FA5E56;
+  position: relative;
+  height: 770px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.socialMedia p {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.face {
+  height: 150px;
+  width: 83px;
+  margin: 120px auto;
+  display: block;
+}
+
+.twitt {
+  height: 150px;
+  width: 183px;
+  margin: 120px auto;
+  display: block;
+}
+
+.insta {
+  height: 150px;
+  width: 150px;
+  margin: 120px auto;
+  display: block;
+}
+/* ---------------------------------------------Available Contests Section---------------------------------------- */
+.contests {
+	position: relative;
+	width: 100%;
+	height: 770px;
+	background-color: #277ecd;
+	text-align: center;
+	font-family: 'Mogra', cursive;
+}
+.contests img {
+	top: 40px;
+	position: relative;
+	display: block;
+	margin: auto;
+}
+.descrip {
+	position: relative;
+	text-align: center;
+	top: 40px;
+	color: #ee5c54;
+}
+
+.descrip .btn-primary {
+	margin: auto;
+	display: block;
+	background-color: #ee5c54;
+	color: #ffffff;
+	height: 40px;
+    width: 200px;
+}
+/* ---------------------------------------------Game Development Section---------------------------------------- */
+.game-dev {
+	background-image: url(../assets/snake.gif);
+	background-repeat: repeat;
+	position: relative;
+	height: 900px;
+	width: 100%;
+}
+.game-form {
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	background-color: #ffffff;
+	width: 600px;
+	position: relative;
+	margin: auto;
+	top: 100px;
+	color: blue;
+}
+.game-form form {
+	color: #ffffff;
+	text-align: left;
+}
+
+/* ---------------------------------------------Footer Section---------------------------------------- */
+.foot {
+  position: relative;
+  background-color: #ed4a3c;
+  height: 130px;
+  width: 100%;
+}
+.foot p{
+  position: relative;
+  color: #ffffff;
+}
+
+.righter {
+  position: absolute;
+  left: 0px;
+  width: 50%;
+  top: 60px;
+}
+.righter p {
+  left: 10px;
+}
+.righter a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.righter a:hover {
+	text-decoration: line-through;
+	color: #ffffff;
+}
+.lefter {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  top: 60px;
+}
+.lefter p{
+  left: -10px;
+  text-align: right;
+}
+/*-------------------------------------------------Terms Page-----------------------------------------*/
+.terms {
+	margin-top: 70px;
+	width: 100%;
+	background-color: #2177cf;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #ffffff;
+}
+/*-------------------------------------------------Privacy Page-----------------------------------------*/
+.privacy {
+	margin-top: 70px;
+	width: 100%;
+	background-color: #2177cf;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #ffffff;
+}
+/*-------------------------------------------------About Page-----------------------------------------*/
+.our-mission {
+	margin-top: 70px;
+	position: relative;
+	background-image: url(../assets/ourmission.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .9;
+	/*background-color: #f18983;*/
+	height: 700px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 1.3em;
+}
+.para1 {
+	position: relative;
+	top: 100px;
+	width: 900px;
+	margin: auto;
+}
+.community {
+	position: relative;
+	height: 700px;
+	width: 100%;
+}
+.community img {
+	display: block;
+	margin: auto;
+}
+.commText {
+	z-index: 999;
+	position: absolute;
+	top: 120px;
+	width: 1000px;
+	margin: auto;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	font-size: 1.2em;
+	color: blue;
+}
+.howitworks {
+	position: relative;
+	background-color: #2177cf;
+	height: 700px;
+	width: 100%;
+}
+.hiwText {
+	position: relative;
+	top: 50px;
+	width: 900px;
+	margin: auto;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+/*-------------------------------------------------Job Opportunities Page-----------------------------------------*/
+.job-op {
+	margin-top: 70px;
+	position: relative;
+	width: 100%;
+	height: 720px;
+	background-color: #2177cf;
+}
+.work {
+	position: relative;
+	width: 100%;
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-bottom: 60px;
+}
+.para-1 {
+	width: 1200px;
+}
+/*-------------------------------------------------Users Form Page-----------------------------------------*/
+.user-form {
+	position: relative;
+	height: 720px;
+	width: 100%;
+	background-color: #2177cf;
+}
+.former {
+	position: relative;
+	top: 100px;
+	margin: auto;
+	width: 600px;
+}
+
+/*-------------------------------------------------Contests Page-----------------------------------------*/
+.carousel {
+	border-radius: 20px;
+    display: block;
+    width: 700px;
+	height: 467px;
+    position: relative;
+    margin: auto;
+}
+.backer {
+	width: 100%;
+	margin-top: 70px;
+	background-color: #2177cf;
+}
+.contest-back {
+	background-color: #2177cf;
+	width: 100%;
+	position: relative;
+}
+.contest-back h1{
+	font-family: 'Mogra', cursive;
+	text-align: center;
+}
+.nav-tabs>li>a {
+    color: #000000;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.tabular {
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 10px;
+	display: block;
+	margin: auto;
+    width: 700px;
+    color: #ffffff;
+    background-color: #a8c6fa;
+}
+/*-------------------------------------------------The navigation bar------------------------------------------------- */
+.navbar-ace-home {
+    overflow: hidden;
+    background-color: #227ECD;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	height: 70px;
+	z-index: 999;
+}
+.navbar-ace-home img {
+	display: none;
+}
+.userImg {
+	position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.navbar-ace {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	height: 70px;
+	z-index: 999;
+}
+.navbar-ace img {
+	display: block;
+	margin: auto;
+}
+.username-top{
+  display: block;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+
+  .comingSoon {
+    background-image: url("../assets/coming_soon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    height: 650px;
+    width: 100%;
+  }
+  .controllerSection {
+    background-color: #ffffff;
+    position: relative;
+    height: 650px;
+    width: 100%;
+  }
+  .socialMedia {
+    background-color: #FA5E56;
+    position: relative;
+    height: 650px;
+    width: 100%;
+    color: #ffffff;
+  }
+  .comingSoon .header {
+    position: relative;
+    top: 300px;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+  }
+  .comingSoon .smallFont {
+    font-size: 20px;
+  }
+
+  .controllerSection p {
+    font-size: 30px;
+    color: #227ECD;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .socialMedia p {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 486px){
+
+  .comingSoon {
+    background-image: url("../assets/coming_soon_small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    height: 350px;
+    width: 100%;
+  }
+  .aceOff {
+    background-color: #227ECD;
+    position: relative;
+    height: 350px;
+    width: 100%;
+  }
+  .aceOff img {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 140px;
+    height: 56px;
+    width: 300px;
+  }
+  .controllerSection {
+    background-color: #ffffff;
+    position: relative;
+    height: 450px;
+    width: 100%;
+  }
+  .controllerSection img {
+    display: block;
+    margin: 50px auto;
+    height: 100px;
+    width: 188px;
+  }
+  .comingSoon .header {
+    position: relative;
+    top: 160px;
+    font-size: 3.5em;
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+  }
+  .comingSoon .smallFont {
+    font-size: 20px;
+  }
+
+  .controllerSection p {
+    font-size: 16.5px;
+    color: #227ECD;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    position: relative;
+    top: -20px;
+  }
+  .socialMedia {
+    background-color: #FA5E56;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    color: #ffffff;
+  }
+  .socialMedia p {
+    position: relative;
+    top: -30px;
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+  }
+  .texter p {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    text-align: left;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .iconss {
+    position: relative;
+    top: 50px;
+    left: 15px;
+  }
+
+  .texter {
+    position: relative;
+    top: 30px;
+  }
+
+  .face {
+    height: 50px;
+    width: 28px;
+    margin: auto;
+    display: block;
+  }
+
+  .twitt {
+    height: 50px;
+    width: 61px;
+    display: block;
+    margin: auto;
+  }
+
+  .insta {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+  }
+  .row {
+    width: 100%;
+  }
+  .foot {
+    background-color: #227ECD;
+    height: 40px;
+    width: 100%;
+    font-size: 6px;
+  }
+  .foot p{
+    position: relative;
+    color: #ffffff;
+  }
+  .aceOff .prizeOff {
+    width: 100%;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+    top: 160px;
+  }
+
+  .betaCoins {
+    position: relative;
+    height: 280px;
+    width: 100%;
+  }
+  .betaCoins p {
+    position: relative;
+    top: 20px;
+    padding: 5px;
+    font-size: 13.7px;
+    text-align: left;
+    color: #227ECD;
+  }
+  .betaCoins img {
+    position: relative;
+    top: 15px;
+    height: 140px;
+    width: 420px;
+    margin: auto;
+    display: block;
+  }
+  .righter {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    top: 15px;
+  }
+  .righter p {
+    left: 10px;
+  }
+  .lefter {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    top: 15px;
+  }
+  .lefter p{
+    left: -10px;
+    text-align: right;
+  }
+  .followUs p {
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    top: 80px;
+  }
+}
+
+/* -------------------------- iPhone 6 and Smaller ------------------------------ */
+
+@media only screen and (max-width: 380px){
+
+  .comingSoon {
+    background-image: url("../assets/coming_soon_small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    height: 280px;
+    width: 100%;
+  }
+  .aceOff {
+    background-color: #227ECD;
+    position: relative;
+    height: 340px;
+    width: 100%;
+  }
+  .aceOff img {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    height: 52px;
+    width: 280px;
+  }
+  .controllerSection {
+    background-color: #ffffff;
+    position: relative;
+    height: 220px;
+    width: 100%;
+  }
+  .controllerSection img {
+    display: block;
+    margin: 50px auto;
+    height: 80px;
+    width: 150px;
+  }
+  .comingSoon .header {
+    position: relative;
+    top: 120px;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+  }
+  .comingSoon .smallFont {
+    font-size: 18px;
+  }
+
+  .controllerSection p {
+    font-size: 14px;
+    color: #227ECD;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    position: relative;
+    top: -30px;
+  }
+  .socialMedia {
+    background-color: #FA5E56;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    color: #ffffff;
+  }
+  .texter p {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .iconss {
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  .texter {
+    position: relative;
+    top: 20px;
+  }
+
+  .face {
+    height: 50px;
+    width: 28px;
+    margin: auto;
+    display: block;
+  }
+
+  .twitt {
+    height: 50px;
+    width: 61px;
+    display: block;
+    margin: auto;
+  }
+
+  .insta {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+  }
+  .foot {
+    font-size: 5px;
+    background-color: #227ECD;
+    height: 40px;
+    width: 100%;
+    color: #ffffff;
+  }
+  .foot p{
+    position: relative;
+    color: #ffffff;
+  }
+  .aceOff .prizeOff {
+    width: 100%;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    color: #ffffff;
+    top: 160px;
+  }
+
+  .betaCoins {
+    position: relative;
+    height: 280px;
+    width: 100%;
+  }
+  .betaCoins p {
+    position: relative;
+    top: 30px;
+    padding: 5px;
+    font-size: 12.4px;
+    text-align: center;
+    color: #227ECD;
+  }
+  .betaCoins img {
+    position: relative;
+    top: 15px;
+    height: 127px;
+    width: 380px;
+    margin: auto;
+    display: block;
+  }
+  .righter {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    top: 15px;
+  }
+  .righter p {
+    color: #ffffff;
+    left: 10px;
+  }
+  .lefter {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    top: 15px;
+  }
+  .lefter p{
+    left: -10px;
+    text-align: right;
+  }
+  .followUs p {
+    position: relative;
+    text-align: center;
+    font-size: 23px;
+    top: 80px;
+  }
+}

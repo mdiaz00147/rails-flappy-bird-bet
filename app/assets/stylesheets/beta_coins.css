@@ -1,0 +1,11 @@
+#beta_coins_star{
+	background-color: white;
+}
+
+hr.star-beta:after {
+	background-color:#17a2b8;
+}
+
+hr.star-light:after{
+	background-color: white;
+}

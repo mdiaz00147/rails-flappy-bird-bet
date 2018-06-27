@@ -1,0 +1,111 @@
+<%= render 'static_pages/partials/header' %>
+
+<section role="main" id="camero-container">
+  <div class="container marketing" >
+    <hr class="featurette-divider">
+
+  	<div class="row featurette">
+	    
+	    <div class="col-md-5 text-center">
+			<%= image_tag 'camero1.png', class:"featurette-image img-fluid mx-auto"%>
+			<%#= render 'static_pages/partials/carousel' %>
+
+			<div class="panel panel-default">
+			<%= form_for(:payment, url: payments_path, html: { :multipart => true, id: 'user-form' }) do |f| %>
+			Buy some tokens and play!
+			<article>
+		
+			<label class="amount">
+			  <span><b>Entry: $30.00</b></span>
+			</label>
+			</article>
+			<div class="form-group ">
+			<script src="https://checkout.stripe.com/checkout.js" 
+			  class="stripe-button  btn-danger"
+			  data-key="pk_test_dKmW1WPHNsG5WLoy2008gYaF"
+			  data-description="Buy 3 tries!"
+			  data-amount="<%=(@plan.price_units + @plan.price_cents).to_i%>"
+			  data-locale="auto"
+			  data-label='ENTER NOW'>
+
+			 </script>	
+			</div>
+			<% end %>
+	 		</div>
+	 		<%= render 'static_pages/partials/contest_progress_bar' %>
+	 		<br/>
+	 		<%= link_to 'Practice game', practice_path, class: 'btn btn-xs btn-warning text-white col-md-12' %>
+	 	</div>
+	 	<div class="col-md-7 ">
+	      <h2>Play and win a 2011 Camaro </h2>
+	      <p class="text-warning"><b>Top 10 players</b></p>
+	      <p class="lead">
+	      	<div class="table-responsive table-hover">
+	      		<table class="table table-striped table-sm">
+	      			<thead>
+	      				<tr>
+	      					<th>#</th>
+	      					<th>Player</th>
+	      					<th class="text-center">Score</th>
+	      				</tr>
+	      			</thead>
+	      				<% @turns.each_with_index do |turn,index| %>
+	      				<tr style="max-height: 10px;">
+	      					<td><%= index + 1 %></td>
+	      					<td><%= turn.subscription.user.username.capitalize  %></td>
+	      					<td class="text-center"><%= turn.score  %></td>
+	      				</tr>
+	      				<%end%>
+	      			<tbody>
+	      				
+	      			</tbody>
+	      		</table>
+	      	</div>
+	      </p>
+		</div>
+	</div>
+<!-- 	<hr class="featurette-divider">
+ -->
+</section>
+
+<!-- prizes secton -->
+<%= render "static_pages/partials/prizes" %>
+
+<!-- <hr class="featurette-divider"> -->
+
+
+<!-- terms and condition jumbotron -->
+<div class="container" id="termsandconditionsjumbo">
+	<div class="row justify-content-center">
+		<div class="col-12">
+		<div class="jumbotron ">
+		<div class="container">
+		<h1 >TERMS AND CONDITIONS</h1>
+		<%= render 'static_pages/partials/accordion' %>
+		</div>
+		</div>    	
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".stripe-button-el span").remove();
+        $("button.stripe-button-el").removeAttr('style').css({
+            "display":"inline-block",
+            "width":"100%",
+            "padding":"15px",
+            "background":"#ca5c54",
+            "color":"white",
+            "font-size":"1.3em" }).html("ENTER NOW");
+        });
+</script>
+
+
+<%= render 'static_pages/partials/footer' %>
+
+
+
+
+

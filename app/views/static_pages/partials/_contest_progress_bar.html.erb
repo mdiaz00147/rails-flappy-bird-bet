@@ -1,0 +1,14 @@
+<% if @real_value < 10 %>
+<% @fake_fill = 5%>
+<% else%>
+<% fake_fill = @real_value %>
+<% end %>
+
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" role="progressbar" style="width: <%= @fake_fill %>%"; aria-valuenow= "<%=@real_value %>" aria-valuemin="0" aria-valuemax="100"><%= @real_value%>%</div>
+</div>
+
+	 		
+
+
